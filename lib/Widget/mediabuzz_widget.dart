@@ -18,9 +18,7 @@ class MediaBuzzWidget extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Expanded(
-            flex: 1,
-            child: Center(
+           Center(
               child: Container(
                   margin: EdgeInsets.only(top: 8, left: 16, right: 16),
                   child: Text(
@@ -29,7 +27,7 @@ class MediaBuzzWidget extends StatelessWidget {
                     textAlign: TextAlign.center,
                   )),
             ),
-          ),
+         
           Expanded(
             flex: 4,
             child: Image.network(
